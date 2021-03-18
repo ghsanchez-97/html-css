@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+section{
+    margin: 0 auto;
+}
+main{
+    margin: 20px auto;
+    width: 100vw;
+    height: 100vh;
+}
+.title-header{
+    font-size: 2rem;
+    background-color: red;
+    border: 2px solid black;
+    text-align: center;
+    width: 25%;
+    height: 100px;
+    border-radius: 25px;
+    position: relative;
+    top: 45px;
+    /* left: 60px; */
+    margin: 0 auto;
+}
+.title-header p{
+    padding: 40px;
+}
+.body-header{
+    font-size: 1.9rem;
+    background-color: rgb(226, 216, 216);
+    border: 2px solid black;
+    text-align: center;
+    width: 40%;
+    /* height: 280px; */
+    border-radius: 25px;
+    padding: 55px;
+    /* position: relative;
+    left: 450px;
+    top: 150px; */
+    margin: 0 auto;
+}

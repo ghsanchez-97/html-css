@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: plum;
+}
+.logo{
+    padding: 30px;
+}
+.logo p{
+    font-size: 1.9rem;
+    color: black;
+}
+.nav{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.nav li{
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 30px;
+    color: #ffff;
+}
+main{
+    /* width: 100vw;
+    height: 100vh; */
+    margin: 0 auto;
+}
+.navegation{
+    background: blueviolet;
+    width: 40%;
+    height: 580px;
+}
+.navegation h4{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+.other-pagination{
+    background-color: brown;
+    padding: 35px;
+    border-radius: 20px;
+    width: 75%;
+    margin: 30px 48px;
+}
+.other-pagination p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.text-container p{
+    font-size: 2rem;
+}
+.text-container{
+    background-color: coral;
+    position: absolute;
+    width: 60%;
+    height: 580px;
+    top: 82px;
+    right: 0;
+}
